@@ -1,0 +1,29 @@
+# Maven build directory
+target/
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Compiled files
+*.class
+*.jar
+!lib/*.jar
+
+# Backup folders
+**/bktextgen*/
+
+# Log files
+*.log
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

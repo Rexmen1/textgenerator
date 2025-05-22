@@ -1,0 +1,17 @@
+name: TextGen
+version: '1.0'
+main: com.rex.textgen.TextGenPlugin
+api-version: '1.21'
+author: Rex
+description: A plugin to generate text using blocks in Minecraft
+commands:
+  textgen:
+    description: Generate text using specified blocks or undo last generation
+    usage: |
+      /textgen <text> <block> <size> <spacing> <width> <style> [outline]
+      /textgen undo - Removes the last generated text
+    permission: textgen.use
+permissions:
+  textgen.use:
+    description: Allows using the /textgen command
+    default: op
